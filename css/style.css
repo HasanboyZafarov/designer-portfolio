@@ -91,3 +91,121 @@ body {
         display: flex;
     }
 }
+
+/* hero start */
+
+.hero {
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.hero-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.hero-info {
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-title {
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #959595;
+    margin-bottom: 64px;
+}
+
+.hero-link {
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    background-color: #9D9D9D;
+    border-radius: 4px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width:942px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 620px) {
+    .hero {
+        padding-top: 72px;
+        padding-bottom: 65px;
+    }
+
+    .hero-container {
+        gap: 64px;
+    }
+
+    .hero-title {
+        font-family: Manrope, sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-text {
+        font-family: Manrope, sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .hero-link {
+
+    }
+}
