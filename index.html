@@ -1,50 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>Document</title>
+   </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
-</head>
+   <body>
+      <!-- header start -->
 
-<body>
-    <header class="header">
-        <div class="header-container">
+      <header class="header">
+         <div class="header-container">
             <a href="#" class="header-logo">
-                <img src="./img/header-logo.svg" alt="heaer-logo.svg">
-                <span class="header-logo-text">logo here</span>
+               <img src="./img/header-logo.svg" alt="heaer-logo.svg" />
+               <span class="header-logo-text">logo here</span>
             </a>
             <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+               </li>
             </ul>
             <button class="header-hamburger">
-                <img src="./img/hamburger.svg" alt="">
+               <img src="./img/hamburger.svg" alt="" />
             </button>
-        </div>
-    </header>
+         </div>
+      </header>
 
-    <section class="hero">
-        <div class="hero-container">
+      <!-- hero start -->
+
+      <section class="hero">
+         <div class="hero-container">
             <div class="hero-info">
-                <h2 class="hero-title">Hi, I am Your Name
-                    A Product Designer
-                    based in City.</h2>
-                <p class="hero-text">I help businesses and companies reach
-                    their goals by designing user-centric digital
-                    products & interactive experiences.</p>
-                <a href="#" class="hero-link">
-                    hi@yourname.com
-                </a>
+               <h2 class="hero-title">
+                  Hi, I am Your Name A Product Designer based in City.
+               </h2>
+               <p class="hero-text">
+                  I help businesses and companies reach their goals by designing
+                  user-centric digital products & interactive experiences.
+               </p>
+               <a href="#" class="hero-link"> hi@yourname.com </a>
             </div>
-            <img src="./img/man.png" alt="hero img" class="hero-img">
-        </div>
-    </section>
+            <img src="./img/man.png" alt="hero img" class="hero-img" />
+         </div>
+      </section>
 
+      <!-- Featured work start -->
 
-    <script src="./js/main.js"></script>
-</body>
+      <section class="feature">
+         <div class="feature-container">
+            <a href="#" class="feature-down-link headline"> Feature work </a>
+            <div class="feature-row">
+               <div class="feature-row-col">
+                  <a href="#" class="feature-row-col-card headline">
+                     <img
+                        class="feature-row-col-card-img"
+                        src="./img/feature/img-1.jpg"
+                        alt=""
+                     />
+                     <span class="feature-row-col-card-title">InVersion</span>
+                  </a>
+                  <a href="#" class="feature-row-col-card headline">
+                     <img
+                        class="feature-row-col-card-img"
+                        src="./img/feature/img-2.jpg"
+                        alt=""
+                     />
+                     <span class="feature-row-col-card-title">InVersion</span>
+                  </a>
+               </div>
+               <div class="feature-row-col">
+                  <a href="#" class="feature-row-col-card headline">
+                     <img
+                        class="feature-row-col-card-img"
+                        src="./img/feature/img-3.jpg"
+                        alt=""
+                     />
+                     <span class="feature-row-col-card-title">InVersion</span>
+                  </a>
+                  <a href="#" class="feature-row-col-card headline">
+                     <img
+                        class="feature-row-col-card-img"
+                        src="./img/feature/img-4.jpg"
+                        alt=""
+                     />
+                     <span class="feature-row-col-card-title">InVersion</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
 
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="./js/main.js"></script>
+   </body>
 </html>
